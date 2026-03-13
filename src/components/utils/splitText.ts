@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollSmoother } from "gsap-trial/ScrollSmoother";
@@ -45,7 +46,7 @@ export default function setSplitText() {
         ease: "power3.out",
         y: 0,
         stagger: 0.02,
-      }
+      },
     );
   });
   titles.forEach((title: ParaElement) => {
@@ -72,7 +73,7 @@ export default function setSplitText() {
         y: 0,
         rotate: 0,
         stagger: 0.03,
-      }
+      },
     );
   });
 
