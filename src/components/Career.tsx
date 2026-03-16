@@ -1,3 +1,4 @@
+//@ts-nocheck
 import "./styles/Career.css";
 
 const Career = () => {
@@ -30,6 +31,24 @@ const Career = () => {
               charts and insights.
             </p>
           </div>
+
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Lead Full Stack Developer</h4>
+                <h5>ApnaTenant (Client Project)</h5>
+              </div>
+              <h3>2026</h3>
+            </div>
+
+            <p>
+              Developing ApnaTenant, a full-stack PG management platform where
+              users discover and book properties while owners manage listings
+              and booking requests. Built admin dashboards for managing users,
+              properties, and queries while ensuring a responsive and scalable
+              platform.
+            </p>
+          </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
@@ -43,23 +62,6 @@ const Career = () => {
               React.js, Next.js, TypeScript, and Node.js. Building modern UI
               components, integrating backend APIs, and delivering
               high-performance production-ready features.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Lead Full Stack Developer</h4>
-                <h5>ApnaTenant (Client Project)</h5>
-              </div>
-             <h3>2026</h3>
-            </div>
-
-            <p>
-              Developing ApnaTenant, a full-stack PG management platform where
-              users discover and book properties while owners manage listings
-              and booking requests. Built admin dashboards for managing users,
-              properties, and queries while ensuring a responsive and scalable
-              platform.
             </p>
           </div>
         </div>
